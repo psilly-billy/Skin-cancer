@@ -24,7 +24,7 @@ def predict(image):
     prediction = model.predict(processed_image)
     return prediction
 
-st.title('Skin Lesion Classification App')
+st.title('MoleSafeScan App')
 uploaded_files = st.file_uploader("Choose images...", type=["jpg", "png"], accept_multiple_files=True)
 
 # Use a container to hold the images and predictions to refresh them when new files are uploaded
